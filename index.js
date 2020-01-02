@@ -1,3 +1,7 @@
 import { getHTML } from './lib/data';
 
-console.log(getHTML());
+async function getData(){
+  console.log(await getHTML());
+}
+
+getData();
