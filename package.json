@@ -1,0 +1,24 @@
+{
+  "name": "property-aggregator",
+  "version": "1.0.0",
+  "description": "Quick JS app that aggregates property listings from multiple sources using a combination of API calls and web scraping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahmadic/property-aggregator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nahmadic/property-aggregator/issues"
+  },
+  "homepage": "https://github.com/nahmadic/property-aggregator#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "esm": "^3.2.25"
+  }
+}
